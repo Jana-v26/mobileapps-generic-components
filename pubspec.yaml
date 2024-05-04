@@ -1,0 +1,67 @@
+name: flutter_components
+description: A new Flutter package project.
+version: 0.0.1
+#homepage:
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  # To add assets to your package, add an assets section, like this:
+  assets:
+    - assets/fonts/
+  #   - images/a_dot_ham.jpeg
+  #
+  # For details regarding assets in packages, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  #
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # To add custom fonts to your package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Oxanium-ExtraBold
+      fonts:
+        - asset: assets/fonts/Oxanium-ExtraBold.ttf
+    - family: Oxanium-ExtraLight
+      fonts:
+        - asset: assets/fonts/Oxanium-ExtraLight.ttf
+    - family: Oxanium-Light
+      fonts:
+        - asset: assets/fonts/Oxanium-Light.ttf
+
+    - family: Oxanium-Medium
+      fonts:
+        - asset: assets/fonts/Oxanium-Medium.ttf
+    - family: Oxanium-Regular
+      fonts:
+        - asset: assets/fonts/Oxanium-Regular.ttf
+
+    - family: Oxanium-SemiBold
+      fonts:
+        - asset: assets/fonts/Oxanium-SemiBold.ttf
+    - family: Oxanium-Bold
+      fonts:
+        - asset: assets/fonts/Oxanium-Bold.ttf
